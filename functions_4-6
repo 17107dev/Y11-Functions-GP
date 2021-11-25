@@ -2,7 +2,18 @@
 #Functions for tasks 4, 5 and 6
 #Coded by Junior Dev Connor
 
+import random
+
 def function4():
+  answer = input("do you want custom numbers (enter c) or random numbers (enter r)")
+  if answer == "r":
+    random_number = random.randint(0,1000)
+    print (random_number)
+  elif answer == "c":
+    chosen_number = int(input("what number would you like to choose"))
+    print (chosen_number)
+  else:
+    print("please enter c or f")
 
 def function5():
 
