@@ -2,10 +2,16 @@
 #Functions for tasks 4, 5 and 6
 #Coded by Junior Dev Connor
 
-def function7():
+import time
 
-def function8():
+def function7(text):
+print(text[::-1])
+
+def function8(number):
+time.sleep(number)
 
 def function9():
+url = input("Please enter the URL of the website you would like to visit: ")
+return url
 
 def function10():
