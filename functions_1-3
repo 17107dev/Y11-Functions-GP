@@ -3,7 +3,8 @@
 #Coded by Junior Dev Reece
 
 def function1():
-
+name = input("Enter your name: ") 
+print("Hello", name )
 def function2():
 
 def function3():
