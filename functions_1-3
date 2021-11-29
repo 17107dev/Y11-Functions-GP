@@ -1,10 +1,20 @@
 #Python Code
 #Functions for tasks 1, 2 and 3
-#Coded by Junior Dev Reece
+#not Coded by Junior Dev Reece
+# done by will
+
+import random
 
 def function1():
-name = input("Enter your name: ") 
-print("Hello", name )
+  name = input("Enter your name: ") 
+  print("Hello", name )
 def function2():
+  nim1=int(input("what is int one"))
+  num2=int(input("what is int two"))
+  return int1, int2
 
 def function3():
+  ran1=random.randint
+  ran2=random.randint
+  return ran1
+  return ran2
