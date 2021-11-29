@@ -5,4 +5,4 @@ Group members:
 - Stan (Senior Dev)
 - Connor (Junior Dev)
 - Reece (Junior Dev)
-- Will (TBD)
+- Will (TBD) EDIT: Junior Dev
