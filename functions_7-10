@@ -5,15 +5,15 @@
 import time
 import webbrowser
 
-def function7(text):
+def function7(a):
 print(text[::-1])
 
-def function8(number):
+def function8(a):
 time.sleep(number)
 
 def function9():
 url = input("Please enter the URL of the website you would like to visit: ")
 return url
 
-def function10(url):
+def function10(a):
   webbrowser.open(url) 
