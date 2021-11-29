@@ -1,3 +1,34 @@
 #Python code
 #Completed Functions group project
 #Assembled by Senior Dev (Stan)
+
+def menu():
+  choice = input("Please enter which function you would like to run: ")
+  if choice == "1":
+    function1()
+  elif choice == "2":
+    function2()
+  elif choice == "3":
+    function3()
+  elif choice == "4":
+    function4()
+  elif choice == "5":
+    print("Please enter the two integers to add together:")
+    a = int(input("a: "))
+    b = int(input("b: "))
+    function5(a,b)
+  elif choice == "6":
+    a = int(input("a: "))
+    b = int(input("b: "))
+    function6(a,b)
+  elif choice == "7":
+    a = str(input("Please enter the string you would like to reverse: "))
+    function7(a)
+  elif choice == "8":
+    a = int(input("Please enter the integer value: "))
+    function8(a)
+  elif choice == "9":
+    function9()
+  elif choice == "10":
+    a = str(input("Please enter the URL you would like to visit: "))
+    function10()
