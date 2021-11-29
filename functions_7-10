@@ -3,6 +3,7 @@
 #Coded by Junior Dev Will
 
 import time
+import webbrowser
 
 def function7(text):
 print(text[::-1])
@@ -14,4 +15,5 @@ def function9():
 url = input("Please enter the URL of the website you would like to visit: ")
 return url
 
-def function10():
+def function10(url):
+  webbrowser.open(url) 
