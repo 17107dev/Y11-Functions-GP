@@ -15,6 +15,10 @@ def function4():
   else:
     print("please enter c or f")
 
-def function5():
-
-def function6():
+def function5(a,b):
+  c = a+b
+  return(c)
+  
+def function6(a,b):
+  c = a*b
+  return(c)
